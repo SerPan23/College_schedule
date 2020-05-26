@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>index</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Расписание</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="add_schedule.html">Добавить</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end header -->
+
+    <div class="main">
+
+        <!--Mobile-->
+        <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+            <div class="card day">
+                <div class="card-header name-day">
+                    Понедельник
+                </div>
+                <div class="card-body">
+                    <div class="lesson">
+                        <div class="row">
+                            <div class="col-7">1 <span class="time">8:30-9:15</span></div>
+                            <div class="col-5"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> <span class="lesson_name">Информатика</span>
+                                <p class="teacher"><a class="s_link" href="schedule_teacher.html">Петров Игорь
+                                        Иванович</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lesson">
+                        <div class="row">
+                            <div class="col-7">1 <span class="time">9:25-10:10</span></div>
+                            <div class="col-5"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> <span class="lesson_name">Математика</span>
+                                <p class="teacher"><a class="s_link" href="schedule_teacher.html">Иванова Светлана
+                                        Григоревна</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card day">
+                <div class="card-header name-day">
+                    Вторник
+                </div>
+                <div class="card-body">
+                    <div class="lesson">
+                        <div class="row">
+                            <div class="col-7">1 <span class="time">8:30-9:15</span></div>
+                            <div class="col-5"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> <span class="lesson_name">Информатика</span>
+                                <p class="teacher"><a class="s_link" href="schedule_teacher.html">Петров Игорь
+                                        Иванович</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lesson">
+                        <div class="row">
+                            <div class="col-7">1 <span class="time">9:25-10:10</span></div>
+                            <div class="col-5"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> <span class="lesson_name">Математика</span>
+                                <p class="teacher"><a class="s_link" href="schedule_teacher.html">Иванова Светлана
+                                        Григоревна</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- PC -->
+        <div class="container d-none d-sm-none d-md-none d-lg-block d-xl-block">
+            <div class="card day">
+                <div class="card-header name-day">
+                    Понедельник
+                </div>
+                <div class="card-body">
+                    <div class="row  lesson">
+                        <div class="col-4 col-md-4">1 <span class="time">8:30-9:15</span></div>
+                        <div class="col-5 col-md-6"><span class="lesson_name">Информатика</span>
+                            <p class="teacher"><a class="s_link" href="schedule_teacher.html">Петров Игорь Иванович</a>
+                            </p>
+                        </div>
+                        <div class="col-3 col-md-2"> <a class="s_link" href="schedule_group.html">ИС-21/9</a> </div>
+                    </div>
+                    <div class="row  lesson">
+                        <div class="col-4 col-md-4">2 <span class="time">9:25-10:10</span></div>
+                        <div class="col-5 col-md-6"><span class="lesson_name">Математика</span>
+                            <p class="teacher"><a class="s_link" href="schedule_teacher.html">Иванова Светлана
+                                    Григоревна</a></p>
+                        </div>
+                        <div class="col-3 col-md-2"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card day">
+                <div class="card-header name-day">
+                    Вторник
+                </div>
+                <div class="card-body">
+                    <div class="row  lesson">
+                        <div class="col-4 col-md-4">1 <span class="time">8:30-9:15</span></div>
+                        <div class="col-5 col-md-6"><span class="lesson_name">Информатика</span>
+                            <p class="teacher"><a class="s_link" href="schedule_teacher.html">Петров Игорь Иванович</a>
+                            </p>
+                        </div>
+                        <div class="col-3 col-md-2"> <a class="s_link" href="schedule_group.html">ИС-21/9</a> </div>
+                    </div>
+                    <div class="row  lesson">
+                        <div class="col-4 col-md-4">2 <span class="time">9:25-10:10</span></div>
+                        <div class="col-5 col-md-6"><span class="lesson_name">Математика</span>
+                            <p class="teacher"><a class="s_link" href="schedule_teacher.html">Иванова Светлана
+                                    Григоревна</a></p>
+                        </div>
+                        <div class="col-3 col-md-2"><a class="s_link" href="schedule_group.html">ИС-21/9</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

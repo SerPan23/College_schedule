@@ -1,0 +1,62 @@
+@media (max-width: 992px) {  
+    .day{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    }
+    .name-day{
+        font-size: 1.4em;
+        text-align: center;
+        font-weight: 600;
+    }
+    .lesson{
+        min-height: 1em;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+    .lesson_name{
+        font-weight: 500;
+        font-size: 1.25em;
+    }
+    .teacher{
+        font-size: 0.8em;
+    }
+    .time{
+        color: #6c6d6f;
+        padding-left: 0.2em;
+    }
+}
+@media (min-width: 993px) {  
+    .day{
+        font-size: 1.3em;
+        margin-bottom: 1em;
+    }
+    .name-day{
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 600;
+    }
+    .lesson{
+        min-height: 1.5em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .lesson_name{
+        font-weight: 500;
+    }
+    .teacher{
+        font-size: 0.7em;
+    }
+    .time{
+        color: #6c6d6f;
+        padding-left: 0.2em;
+    }
+}
+
+.s_link{
+    text-decoration: none;
+    color: black;
+}
+.s_link:hover{
+    text-decoration: none;
+    color: #FF5722;
+}

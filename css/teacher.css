@@ -1,0 +1,12 @@
+.teacher{
+    font-size: 1.2em;
+    margin-top: 0.3em;
+}
+.teacher a{
+    text-decoration: none;
+    color: black;
+}
+.teacher a:hover{
+    text-decoration: none;
+    color: #FF5722;
+}
