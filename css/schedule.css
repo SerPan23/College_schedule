@@ -60,3 +60,25 @@
     text-decoration: none;
     color: #FF5722;
 }
+
+
+.square {
+    background: #FF5722;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    left: 1px;
+    position: relative;
+    vertical-align: middle;
+    outline: 1px solid #FF5722;
+}
+.square.square-2 {
+    border-right: 16px solid #FF5722;
+    border-top: 16px solid #fff;
+}
+.square.square-1 {
+    border-top: 16px solid #FF5722;
+    border-right: 16px solid #fff;
+}
+
+
